@@ -7,6 +7,26 @@
 				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/dev.zip",
 					"type": "zip"
+				},
+				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
 				}
 			},
 			"0.1.0": {
@@ -15,6 +35,26 @@
 				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
 					"type": "zip"
+				},
+				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
 				}
 			},
 			"0.1.0-RC3": {
@@ -23,6 +63,26 @@
 				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
 					"type": "zip"
+				},
+				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
 				}
 			}
 		}
