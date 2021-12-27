@@ -28,6 +28,20 @@
 					"league/flysystem": "1.1",
 					"illuminate/database": "^8.77",
 					"illuminate/http": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Virdafils\\": "src/",
+						"Database\\Factories\\KennethTrecy\\Virdafils\\Node\\": "database/factories/",
+						"Database\\Seeders\\": "database/seeders/"
+					}
+				},
+				"extra": {
+					"laravel": {
+						"providers": [
+							"KennethTrecy\\Virdafils\\VirdafilsServiceProvider"
+						]
+					}
 				}
 			},
 			"0.1.1": {
@@ -57,6 +71,13 @@
 					"league/flysystem": "^1.1",
 					"illuminate/database": "^8.77",
 					"illuminate/http": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Virdafils\\": "src/",
+						"Database\\Factories\\KennethTrecy\\Virdafils\\Node\\": "database/factories/",
+						"Database\\Seeders\\": "database/seeders/"
+					}
 				},
 				"extra": {
 					"laravel": {
@@ -93,6 +114,13 @@
 					"league/flysystem": "1.1",
 					"illuminate/database": "^8.77",
 					"illuminate/http": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Virdafils\\": "src/",
+						"Database\\Factories\\KennethTrecy\\Virdafils\\Node\\": "database/factories/",
+						"Database\\Seeders\\": "database/seeders/"
+					}
 				},
 				"extra": {
 					"laravel": {

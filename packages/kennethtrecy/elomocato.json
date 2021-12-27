@@ -23,6 +23,11 @@
 				"require": {
 					"php": "^7.3|^8.0",
 					"illuminate/contracts": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
 				}
 			},
 			"0.1.0": {
@@ -47,6 +52,11 @@
 				"require": {
 					"php": "^7.3|^8.0",
 					"illuminate/contracts": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
 				}
 			},
 			"0.1.0-RC3": {
@@ -71,6 +81,11 @@
 				"require": {
 					"php": "^7.3|^8.0",
 					"illuminate/contracts": "^8.77"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
 				}
 			}
 		}
