@@ -50,7 +50,7 @@
 				"dist": {
 					"url": "http://repo.local/KennethTrecy/virdafils/archive/v0.1.1.zip",
 					"type": "zip",
-					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
+					"reference": "6b119e1778aeb0a6b44c7d57c1cd0d44b6a33aaa"
 				},
 				"keywords": ["database", "filesystem", "storage", "driver", "laravel", "package"],
 				"homepage": "http://repo.local/KennethTrecy/virdafils",
