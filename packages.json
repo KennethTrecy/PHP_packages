@@ -1,6 +1,14 @@
 {
 	"packages": {
 		"kennethtrecy/elomocato": {
+			"dev-latest": {
+				"name": "kennethtrecy/elomocato",
+				"version": "dev-latest",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/dev.zip",
+					"type": "zip"
+				}
+			},
 			"0.1.0": {
 				"name": "kennethtrecy/elomocato",
 				"version": "0.1.0",
