@@ -11,7 +11,7 @@
 			},
 			"0.1.0": {
 				"name": "kennethtrecy/elomocato",
-				"version": "0.1.0",
+				"version": "v0.1.0",
 				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
 					"type": "zip"
@@ -19,7 +19,7 @@
 			},
 			"0.1.0-RC3": {
 				"name": "kennethtrecy/elomocato",
-				"version": "0.1.0-RC3",
+				"version": "v0.1.0-RC3",
 				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
 					"type": "zip"
