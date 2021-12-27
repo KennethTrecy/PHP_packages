@@ -4,7 +4,7 @@
 			"dev-latest": {
 				"name": "kennethtrecy/elomocato",
 				"version": "dev-latest",
-				"source": {
+				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/dev.zip",
 					"type": "zip",
 					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
@@ -33,7 +33,7 @@
 			"0.1.0": {
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.1.0",
-				"source": {
+				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
 					"type": "zip",
 					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
@@ -62,7 +62,7 @@
 			"0.1.0-RC3": {
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.1.0-RC3",
-				"source": {
+				"dist": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
 					"type": "zip",
 					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
