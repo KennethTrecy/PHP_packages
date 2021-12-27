@@ -1,0 +1,14 @@
+{
+	"packages": {
+		"kennethtrecy/elomocato": {
+			"0.1.0-RC3": {
+				"name": "kennethtrecy/elomocato",
+				"version": "0.1.0-RC3",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
+					"type": "zip"
+				}
+			}
+		}
+	}
+}
