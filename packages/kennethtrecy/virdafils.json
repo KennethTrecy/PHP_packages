@@ -1,0 +1,46 @@
+{
+	"packages": {
+		"kennethtrecy/virdafils": {
+			"dev-latest": {
+				"name": "kennethtrecy/virdafils",
+				"version": "dev-latest",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/virdafils/archive/v0.1.0.zip",
+					"type": "zip",
+					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
+				},
+				"keywords": ["database", "filesystem", "storage", "driver", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/virdafils",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				]
+			},
+			"0.1.0": {
+				"name": "kennethtrecy/virdafils",
+				"version": "v0.1.0",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/virdafils/archive/v0.1.0.zip",
+					"type": "zip",
+					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
+				},
+				"keywords": ["database", "filesystem", "storage", "driver", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/virdafils",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				]
+			}
+		}
+	}
+}
