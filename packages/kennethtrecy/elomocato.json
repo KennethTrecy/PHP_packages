@@ -19,7 +19,11 @@
 						"homepage": "http://repo.local/KennethTrecy",
 						"role": "Developer"
 					}
-				]
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				}
 			},
 			"0.1.0": {
 				"name": "kennethtrecy/elomocato",
@@ -39,7 +43,11 @@
 						"homepage": "http://repo.local/KennethTrecy",
 						"role": "Developer"
 					}
-				]
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				}
 			},
 			"0.1.0-RC3": {
 				"name": "kennethtrecy/elomocato",
@@ -59,7 +67,11 @@
 						"homepage": "http://repo.local/KennethTrecy",
 						"role": "Developer"
 					}
-				]
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				}
 			}
 		}
 	}
