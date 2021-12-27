@@ -1,0 +1,66 @@
+{
+	"packages": {
+		"kennethtrecy/elomocato": {
+			"dev-latest": {
+				"name": "kennethtrecy/elomocato",
+				"version": "dev-latest",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/dev.zip",
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
+				},
+				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				]
+			},
+			"0.1.0": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.1.0",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
+				},
+				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				]
+			},
+			"0.1.0-RC3": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.1.0-RC3",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
+				},
+				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				]
+			}
+		}
+	}
+}
