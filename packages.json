@@ -6,7 +6,8 @@
 				"version": "dev-latest",
 				"source": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/dev.zip",
-					"type": "zip"
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
 				},
 				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
 				"homepage": "http://repo.local/KennethTrecy/elomocato",
@@ -34,7 +35,8 @@
 				"version": "v0.1.0",
 				"source": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
-					"type": "zip"
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
 				},
 				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
 				"homepage": "http://repo.local/KennethTrecy/elomocato",
@@ -62,7 +64,8 @@
 				"version": "v0.1.0-RC3",
 				"source": {
 					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
-					"type": "zip"
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
 				},
 				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
 				"homepage": "http://repo.local/KennethTrecy/elomocato",
