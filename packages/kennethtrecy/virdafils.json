@@ -5,7 +5,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "master",
 				"dist": {
-					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/master.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/tree/master.zip",
 					"type": "zip",
 					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
 				},
@@ -415,7 +415,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "sample_feature",
 				"dist": {
-					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/sample_feature.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/tree/sample_feature.zip",
 					"type": "zip",
 					"reference": "4fbdbd12af1bbeefd3b0a468403e24a081cdd677"
 				},

@@ -5,7 +5,7 @@
 				"name": "kennethtrecy/laravel-address",
 				"version": "master",
 				"dist": {
-					"url": "https://github.com/KennethTrecy/laravel-address/archive/refs/tags/master.zip",
+					"url": "https://github.com/KennethTrecy/laravel-address/tree/master.zip",
 					"type": "zip",
 					"reference": "358ebd6be188fe4a5881cb249af7cb9a8a328aaf"
 				},
