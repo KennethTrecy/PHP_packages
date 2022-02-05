@@ -5,7 +5,7 @@
 				"name": "kennethtrecy/elomocato",
 				"version": "master",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/master.zip",
+					"url": "https://github.com/KennethTrecy/lomocato/archive/refs/tags/master.zip",
 					"type": "zip",
 					"reference": "876c73885538950340b0b7dc930dc61d000caacf"
 				},
@@ -57,7 +57,7 @@
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.1.0-RC3",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC3.zip",
+					"url": "https://github.com/KennethTrecy/lomocato/archive/refs/tags/v0.1.0-RC3.zip",
 					"type": "zip",
 					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
 				},
@@ -109,7 +109,7 @@
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.1.0-RC2",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC2.zip",
+					"url": "https://github.com/KennethTrecy/lomocato/archive/refs/tags/v0.1.0-RC2.zip",
 					"type": "zip",
 					"reference": "eb5e51aba105483d621b49d1467f427bf170b512"
 				},
@@ -160,7 +160,7 @@
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.1.0-RC1",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC1.zip",
+					"url": "https://github.com/KennethTrecy/lomocato/archive/refs/tags/v0.1.0-RC1.zip",
 					"type": "zip",
 					"reference": "234b25037e3ef6eb9603ad3d0b3bb85b5ff76dd9"
 				},
@@ -210,7 +210,7 @@
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.1.0",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
+					"url": "https://github.com/KennethTrecy/lomocato/archive/refs/tags/v0.1.0.zip",
 					"type": "zip",
 					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
 				},

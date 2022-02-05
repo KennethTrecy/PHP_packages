@@ -5,7 +5,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "master",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/master.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/master.zip",
 					"type": "zip",
 					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
 				},
@@ -89,7 +89,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "v0.1.1",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.1.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/v0.1.1.zip",
 					"type": "zip",
 					"reference": "6b119e1778aeb0a6b44c7d57c1cd0d44b6a33aaa"
 				},
@@ -173,7 +173,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "v0.1.0-RC1",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC1.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/v0.1.0-RC1.zip",
 					"type": "zip",
 					"reference": "9baa4c7bd0824406657886e01636a2e2770b4f1d"
 				},
@@ -254,7 +254,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "v0.1.0-RC0",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC0.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/v0.1.0-RC0.zip",
 					"type": "zip",
 					"reference": "36421c482733ba81e8502b7b1163b86272ae5f15"
 				},
@@ -331,7 +331,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "v0.1.0",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/v0.1.0.zip",
 					"type": "zip",
 					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
 				},
@@ -415,7 +415,7 @@
 				"name": "kennethtrecy/virdafils",
 				"version": "sample_feature",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/sample_feature.zip",
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/tags/sample_feature.zip",
 					"type": "zip",
 					"reference": "4fbdbd12af1bbeefd3b0a468403e24a081cdd677"
 				},

@@ -5,7 +5,7 @@
 				"name": "kennethtrecy/laravel-address",
 				"version": "master",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/master.zip",
+					"url": "https://github.com/KennethTrecy/laravel-address/archive/refs/tags/master.zip",
 					"type": "zip",
 					"reference": "358ebd6be188fe4a5881cb249af7cb9a8a328aaf"
 				},
@@ -66,7 +66,7 @@
 				"name": "kennethtrecy/laravel-address",
 				"version": "v0.7.0",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.7.0.zip",
+					"url": "https://github.com/KennethTrecy/laravel-address/archive/refs/tags/v0.7.0.zip",
 					"type": "zip",
 					"reference": "358ebd6be188fe4a5881cb249af7cb9a8a328aaf"
 				},
