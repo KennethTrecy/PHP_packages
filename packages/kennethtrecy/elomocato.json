@@ -5,7 +5,7 @@
 				"name": "kennethtrecy/elomocato",
 				"version": "master",
 				"dist": {
-					"url": "https://github.com/KennethTrecy/elomocato/tree/master.zip",
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
 					"type": "zip",
 					"reference": "876c73885538950340b0b7dc930dc61d000caacf"
 				},
