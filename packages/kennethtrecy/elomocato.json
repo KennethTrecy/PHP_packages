@@ -1,15 +1,23 @@
 {
 	"packages": {
 		"kennethtrecy/elomocato": {
-			"dev-latest": {
+			"dev-master": {
 				"name": "kennethtrecy/elomocato",
-				"version": "dev-latest",
+				"version": "master",
 				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/dev.zip",
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/master.zip",
 					"type": "zip",
-					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
+					"reference": "ba79656464375cc142ab0e2cbac68247ceb6f8a3"
 				},
-				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
 				"homepage": "http://repo.local/KennethTrecy/elomocato",
 				"license": "proprietary",
 				"authors": [
@@ -24,40 +32,26 @@
 					"php": "^7.3|^8.0",
 					"illuminate/contracts": "^8.77"
 				},
-				"autoload": {
-					"psr-4": {
-						"KennethTrecy\\Elomocato\\": "src/"
-					}
-				}
-			},
-			"0.1.0": {
-				"name": "kennethtrecy/elomocato",
-				"version": "v0.1.0",
-				"dist": {
-					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
-					"type": "zip",
-					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
-				},
-				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
-				"homepage": "http://repo.local/KennethTrecy/elomocato",
-				"license": "proprietary",
-				"authors": [
-					{
-						"name": "Kenneth Trecy Tobias",
-						"email": "web.kennethtobias@gmail.com",
-						"homepage": "http://repo.local/KennethTrecy",
-						"role": "Developer"
-					}
-				],
-				"require": {
-					"php": "^7.3|^8.0",
-					"illuminate/contracts": "^8.77"
+				"require-dev": {
+					"phpunit/phpunit": "^9.5"
 				},
 				"autoload": {
 					"psr-4": {
 						"KennethTrecy\\Elomocato\\": "src/"
 					}
-				}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true
 			},
 			"0.1.0-RC3": {
 				"name": "kennethtrecy/elomocato",
@@ -67,7 +61,15 @@
 					"type": "zip",
 					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
 				},
-				"keywords": ["eloquent", "cast", "tools", "laravel", "package"],
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
 				"homepage": "http://repo.local/KennethTrecy/elomocato",
 				"license": "proprietary",
 				"authors": [
@@ -82,11 +84,179 @@
 					"php": "^7.3|^8.0",
 					"illuminate/contracts": "^8.77"
 				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5"
+				},
 				"autoload": {
 					"psr-4": {
 						"KennethTrecy\\Elomocato\\": "src/"
 					}
-				}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true
+			},
+			"0.1.0-RC2": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.1.0-RC2",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC2.zip",
+					"type": "zip",
+					"reference": "eb5e51aba105483d621b49d1467f427bf170b512"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true
+			},
+			"0.1.0-RC1": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.1.0-RC1",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0-RC1.zip",
+					"type": "zip",
+					"reference": "234b25037e3ef6eb9603ad3d0b3bb85b5ff76dd9"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true
+			},
+			"0.1.0": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.1.0",
+				"dist": {
+					"url": "http://repo.local/KennethTrecy/elomocato/archive/v0.1.0.zip",
+					"type": "zip",
+					"reference": "e528423384dd30e9d13d8cfb8611aa5a31325884"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true
 			}
 		}
 	}
