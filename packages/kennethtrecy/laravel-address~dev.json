@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/laravel-address/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "5000b527c78c6466525f28758fe33016da7d9597"
+					"reference": "174e68d818c2107cae05013b3ed97002fee57d4a"
 				},
 				"description": "A minor fork of yajra/laravel-address to store barangays in JSON format.",
 				"keywords": [
