@@ -1,0 +1,58 @@
+{
+	"packages": {
+		"kennethtrecy/elomocato": {
+			"dev-master": {
+				"name": "kennethtrecy/elomocato",
+				"version": "master",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
+					"type": "zip",
+					"reference": "876c73885538950340b0b7dc930dc61d000caacf"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "http://repo.local/KennethTrecy/elomocato",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true
+			}
+		}
+	}
+}

@@ -1,0 +1,174 @@
+{
+	"packages": {
+		"kennethtrecy/virdafils": {
+			"dev-master": {
+				"name": "kennethtrecy/virdafils",
+				"version": "master",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/heads/master.zip",
+					"type": "zip",
+					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
+				},
+				"type": "library",
+				"description": "A Flysystem storage driver for virtual databased-filesystem",
+				"keywords": [
+					"database",
+					"filesystem",
+					"storage",
+					"driver",
+					"laravel",
+					"package"
+				],
+				"homepage": "http://repo.local/KennethTrecy/virdafils",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"kennethtrecy/elomocato": "^0.1.0",
+					"illuminate/contracts": "^8.77",
+					"illuminate/support": "^8.77",
+					"league/flysystem": "1.1",
+					"illuminate/database": "^8.77",
+					"illuminate/http": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5",
+					"orchestra/testbench": "^6.23",
+					"laravel/framework": "^8.77"
+				},
+				"repositories": [
+					{
+						"type": "composer",
+						"url": "http://repo.local/Kennethtrecy/PHP_packages/raw/branch/master/"
+					}
+				],
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Virdafils\\": "src/",
+						"Database\\Factories\\KennethTrecy\\Virdafils\\Node\\": "database/factories/",
+						"Database\\Seeders\\": "database/seeders/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test:offline": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature,Integration"
+					],
+					"test:online": [
+						"./vendor/bin/phpunit --testsuite Online"
+					],
+					"test:full": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"extra": {
+					"laravel": {
+						"providers": [
+							"KennethTrecy\\Virdafils\\VirdafilsServiceProvider"
+						]
+					}
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"secure-http": false
+				}
+			},
+			"dev-sample_feature": {
+				"name": "kennethtrecy/virdafils",
+				"version": "sample_feature",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/heads/sample_feature.zip",
+					"type": "zip",
+					"reference": "4fbdbd12af1bbeefd3b0a468403e24a081cdd677"
+				},
+				"type": "library",
+				"description": "A Flysystem storage driver for virtual database filesystem",
+				"keywords": [
+					"database",
+					"filesystem",
+					"storage",
+					"driver",
+					"laravel",
+					"package"
+				],
+				"homepage": "http://repo.local/KennethTrecy/virdafils",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "http://repo.local/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"kennethtrecy/elomocato": "^0.1.0",
+					"illuminate/contracts": "^8.77",
+					"illuminate/support": "^8.77",
+					"league/flysystem": "^1.1",
+					"illuminate/database": "^8.77",
+					"illuminate/http": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5",
+					"orchestra/testbench": "^6.23",
+					"laravel/framework": "^8.77"
+				},
+				"repositories": [
+					{
+						"type": "composer",
+						"url": "http://repo.local/Kennethtrecy/PHP_packages/raw/branch/master/"
+					}
+				],
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Virdafils\\": "src/",
+						"Database\\Factories\\KennethTrecy\\Virdafils\\Node\\": "database/factories/",
+						"Database\\Seeders\\": "database/seeders/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "tests/"
+					}
+				},
+				"scripts": {
+					"test:offline": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature,Integration"
+					],
+					"test:online": [
+						"./vendor/bin/phpunit --testsuite Online"
+					],
+					"test:full": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"extra": {
+					"laravel": {
+						"providers": [
+							"KennethTrecy\\Virdafils\\VirdafilsServiceProvider"
+						]
+					}
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"secure-http": false
+				}
+			}
+		}
+	}
+}

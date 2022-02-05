@@ -1,0 +1,68 @@
+{
+	"packages": {
+		"kennethtrecy/laravel-address": {
+			"dev-master": {
+				"name": "kennethtrecy/laravel-address",
+				"version": "master",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/laravel-address/archive/refs/heads/master.zip",
+					"type": "zip",
+					"reference": "5000b527c78c6466525f28758fe33016da7d9597"
+				},
+				"description": "A minor fork of yajra/laravel-address to store barangays in JSON format.",
+				"keywords": [
+					"yajra",
+					"laravel",
+					"address"
+				],
+				"homepage": "https://github.com/kennethtrecy/laravel-address",
+				"license": "MIT",
+				"authors": [
+					{
+						"name": "Arjay Angeles",
+						"email": "aqangeles@gmail.com",
+						"homepage": "http://yajrabox.com",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"illuminate/support": "^5.5|^6|^7|^8",
+					"illuminate/routing": "^5.5|^6|^7|^8",
+					"illuminate/database": "^5.5|^6|^7|^8",
+					"laravelcollective/html": "^5.5|^6|^7|^8",
+					"rap2hpoutre/fast-excel": "^1.6|^2.5|^3.0"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "*"
+				},
+				"autoload": {
+					"classmap": [
+						"database"
+					],
+					"psr-4": {
+						"Yajra\\Address\\": "src"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Yajra\\Address\\Test\\": "tests"
+					}
+				},
+				"scripts": {
+					"test": "phpunit"
+				},
+				"minimum-stability": "dev",
+				"extra": {
+					"branch-alias": {
+						"dev-master": "1.0-dev"
+					},
+					"laravel": {
+						"providers": [
+							"Yajra\\Address\\AddressServiceProvider"
+						]
+					}
+				}
+			}
+		}
+	}
+}
