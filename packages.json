@@ -1,6 +1,6 @@
 {
 	"packages": [],
-	"metadata-url": "/KennethTrecy/PHP_packages/master/packages/kennethtrecy/%package%.json",
+	"metadata-url": "/KennethTrecy/PHP_packages/master/packages/%package%.json",
 	"available-packages": [
 		"kennethtrecy/elomocato",
 		"kennethtrecy/virdafils",
