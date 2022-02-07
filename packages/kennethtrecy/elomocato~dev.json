@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "876c73885538950340b0b7dc930dc61d000caacf"
+					"reference": "9aea8b4f0853d70e795d2b8886b3fb284f25eb67"
 				},
 				"type": "library",
 				"description": "Collection of casting tools that can be used with any Eloquent model",
@@ -18,13 +18,13 @@
 					"laravel",
 					"package"
 				],
-				"homepage": "http://repo.local/KennethTrecy/elomocato",
-				"license": "proprietary",
+				"homepage": "https://github.com/KennethTrecy/elomocato",
+				"license": "MIT",
 				"authors": [
 					{
 						"name": "Kenneth Trecy Tobias",
 						"email": "web.kennethtobias@gmail.com",
-						"homepage": "http://repo.local/KennethTrecy",
+						"homepage": "https://github.com/KennethTrecy",
 						"role": "Developer"
 					}
 				],
@@ -33,7 +33,10 @@
 					"illuminate/contracts": "^8.77"
 				},
 				"require-dev": {
-					"phpunit/phpunit": "^9.5"
+					"phpunit/phpunit": "^9.5",
+					"laravel/framework": "^8.82",
+					"orchestra/testbench": "^6.24",
+					"illuminate/database": "^8.82"
 				},
 				"autoload": {
 					"psr-4": {
@@ -42,16 +45,27 @@
 				},
 				"autoload-dev": {
 					"psr-4": {
-						"Tests\\": "tests/"
+						"Tests\\": "t/",
+						"Tests\\Mocks\\Models\\": "t/mocks/models/"
 					}
 				},
 				"scripts": {
-					"test": [
+					"test:offline:fast": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature"
+					],
+					"test:offline:slow": [
+						"./vendor/bin/phpunit --testsuite Integration"
+					],
+					"test:offline:all": [
 						"./vendor/bin/phpunit"
 					]
 				},
 				"minimum-stability": "dev",
-				"prefer-stable": true
+				"prefer-stable": true,
+				"config": {
+					"sort-packages": true,
+					"secure-http": true
+				}
 			}
 		}
 	}
