@@ -1,13 +1,13 @@
 {
 	"packages": {
 		"kennethtrecy/elomocato": {
-			"dev-master": {
+			"dev-applied_master": {
 				"name": "kennethtrecy/elomocato",
-				"version": "master",
+				"version": "applied_master",
 				"dist": {
-					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/applied_master.zip",
 					"type": "zip",
-					"reference": "8b0dd8a49fe06ad71656cd654f3fdc474a885be0"
+					"reference": "3fd1edcdd20bbf72da983c8a0451bc7134e592de"
 				},
 				"type": "library",
 				"description": "Collection of casting tools that can be used with any Eloquent model",
@@ -30,7 +30,75 @@
 				],
 				"require": {
 					"php": "^7.3|^8.0",
-					"illuminate/contracts": "^8.77"
+					"illuminate/contracts": "^8.77",
+					"nesbot/carbon": "^2.56"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5",
+					"laravel/framework": "^8.82",
+					"orchestra/testbench": "^6.24",
+					"illuminate/database": "^8.82"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "t/",
+						"Tests\\Mocks\\Models\\": "t/mocks/models/"
+					}
+				},
+				"scripts": {
+					"test:offline:fast": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature"
+					],
+					"test:offline:slow": [
+						"./vendor/bin/phpunit --testsuite Integration"
+					],
+					"test:offline:all": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"sort-packages": true,
+					"secure-http": true
+				}
+			},
+			"dev-master": {
+				"name": "kennethtrecy/elomocato",
+				"version": "master",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
+					"type": "zip",
+					"reference": "664b86e303f118f4ef9caafa58c18a86bb1858ba"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "https://github.com/KennethTrecy/elomocato",
+				"license": "MIT",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "https://github.com/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77",
+					"nesbot/carbon": "^2.56"
 				},
 				"require-dev": {
 					"phpunit/phpunit": "^9.5",
