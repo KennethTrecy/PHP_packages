@@ -7,10 +7,10 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "c27cb18d41e07b3cae8eed6b57a5a9bf47c63516"
+					"reference": "89f8289dda7cc9c0ed823bdfe05d496a8122eb31"
 				},
 				"type": "library",
-				"description": "A Flysystem storage driver for virtual databased-filesystem",
+				"description": "A Flysystem storage driver for virtual database filesystem",
 				"keywords": [
 					"database",
 					"filesystem",
@@ -19,22 +19,22 @@
 					"laravel",
 					"package"
 				],
-				"homepage": "http://repo.local/KennethTrecy/virdafils",
-				"license": "proprietary",
+				"homepage": "https://github.com/KennethTrecy/virdafils",
+				"license": "MIT",
 				"authors": [
 					{
 						"name": "Kenneth Trecy Tobias",
 						"email": "web.kennethtobias@gmail.com",
-						"homepage": "http://repo.local/KennethTrecy",
+						"homepage": "https://github.com/KennethTrecy",
 						"role": "Developer"
 					}
 				],
 				"require": {
 					"php": "^7.3|^8.0",
-					"kennethtrecy/elomocato": "^0.1.0",
+					"kennethtrecy/elomocato": "^0.2.0",
 					"illuminate/contracts": "^8.77",
 					"illuminate/support": "^8.77",
-					"league/flysystem": "1.1",
+					"league/flysystem": "^1.1",
 					"illuminate/database": "^8.77",
 					"illuminate/http": "^8.77"
 				},
@@ -46,7 +46,91 @@
 				"repositories": [
 					{
 						"type": "composer",
-						"url": "http://repo.local/Kennethtrecy/PHP_packages/raw/branch/master/"
+						"url": "https://raw.githubusercontent.com/KennethTrecy/PHP_packages/master"
+					}
+				],
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Virdafils\\": "src/",
+						"Database\\Factories\\KennethTrecy\\Virdafils\\Node\\": "database/factories/",
+						"Database\\Seeders\\": "database/seeders/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "t/"
+					}
+				},
+				"scripts": {
+					"test:offline": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature,Integration"
+					],
+					"test:online": [
+						"./vendor/bin/phpunit --testsuite Online"
+					],
+					"test:full": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"extra": {
+					"laravel": {
+						"providers": [
+							"KennethTrecy\\Virdafils\\VirdafilsServiceProvider"
+						]
+					}
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"secure-http": true
+				}
+			},
+			"dev-merged_master": {
+				"name": "kennethtrecy/virdafils",
+				"version": "merged_master",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/heads/merged_master.zip",
+					"type": "zip",
+					"reference": "2bf11b790cbffdbc9ab3c846b92b86c507a0bfd3"
+				},
+				"type": "library",
+				"description": "A Flysystem storage driver for virtual database filesystem",
+				"keywords": [
+					"database",
+					"filesystem",
+					"storage",
+					"driver",
+					"laravel",
+					"package"
+				],
+				"homepage": "https://github.com/KennethTrecy/virdafils",
+				"license": "proprietary",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "https://github.com/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"kennethtrecy/elomocato": "^0.1.0",
+					"illuminate/contracts": "^8.77",
+					"illuminate/support": "^8.77",
+					"league/flysystem": "^1.1",
+					"illuminate/database": "^8.77",
+					"illuminate/http": "^8.77"
+				},
+				"require-dev": {
+					"phpunit/phpunit": "^9.5",
+					"orchestra/testbench": "^6.23",
+					"laravel/framework": "^8.77"
+				},
+				"repositories": [
+					{
+						"type": "composer",
+						"url": "https://raw.githubusercontent.com/KennethTrecy/PHP_packages/master"
 					}
 				],
 				"autoload": {
@@ -82,7 +166,7 @@
 				"minimum-stability": "dev",
 				"prefer-stable": true,
 				"config": {
-					"secure-http": false
+					"secure-http": true
 				}
 			},
 			"dev-sample_feature": {
