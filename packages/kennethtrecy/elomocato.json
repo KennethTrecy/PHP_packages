@@ -1,6 +1,76 @@
 {
 	"packages": {
 		"kennethtrecy/elomocato": {
+			"0.3.0-RC0": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.3.0-RC0",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/tags/v0.3.0-RC0.zip",
+					"type": "zip",
+					"reference": "e92eb181b48c1fbe271a720a77293f0ca24c90df"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "https://github.com/KennethTrecy/elomocato",
+				"license": "MIT",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "https://github.com/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77|^9.0",
+					"nesbot/carbon": "^2.56"
+				},
+				"require-dev": {
+					"laravel/framework": "^9.0",
+					"orchestra/testbench": "^7.0",
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "t/",
+						"Tests\\Mocks\\Models\\": "t/mocks/models/"
+					}
+				},
+				"scripts": {
+					"test:offline:fast": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature"
+					],
+					"test:offline:all": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"sort-packages": true,
+					"secure-http": true
+				},
+				"extra": {
+					"laravel": {
+						"providers": [
+							"KennethTrecy\\"
+						]
+					}
+				}
+			},
 			"0.2.0-RC2": {
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.2.0-RC2",
