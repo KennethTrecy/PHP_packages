@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "e92eb181b48c1fbe271a720a77293f0ca24c90df"
+					"reference": "185375f0e3556a37d83c8cddfcb3fe7075a9ab45"
 				},
 				"type": "library",
 				"description": "Collection of casting tools that can be used with any Eloquent model",
@@ -62,13 +62,6 @@
 				"config": {
 					"sort-packages": true,
 					"secure-http": true
-				},
-				"extra": {
-					"laravel": {
-						"providers": [
-							"KennethTrecy\\"
-						]
-					}
 				}
 			}
 		}

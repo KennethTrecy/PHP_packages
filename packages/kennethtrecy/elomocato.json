@@ -71,6 +71,69 @@
 					}
 				}
 			},
+			"0.3.0": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.3.0",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/tags/v0.3.0.zip",
+					"type": "zip",
+					"reference": "185375f0e3556a37d83c8cddfcb3fe7075a9ab45"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "https://github.com/KennethTrecy/elomocato",
+				"license": "MIT",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "https://github.com/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^7.3|^8.0",
+					"illuminate/contracts": "^8.77|^9.0",
+					"nesbot/carbon": "^2.56"
+				},
+				"require-dev": {
+					"laravel/framework": "^9.0",
+					"orchestra/testbench": "^7.0",
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "t/",
+						"Tests\\Mocks\\Models\\": "t/mocks/models/"
+					}
+				},
+				"scripts": {
+					"test:offline:fast": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature"
+					],
+					"test:offline:all": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"sort-packages": true,
+					"secure-http": true
+				}
+			},
 			"0.2.0-RC2": {
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.2.0-RC2",
