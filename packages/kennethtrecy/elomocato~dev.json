@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "d2ba1aa9084e1cdd2b08f9d52a586dd7dec3a4ee"
+					"reference": "7fcec231c61a9637baa8b07e46b080bef41a97f1"
 				},
 				"type": "library",
 				"description": "Collection of casting tools that can be used with any Eloquent model",
@@ -29,11 +29,14 @@
 					}
 				],
 				"require": {
-					"php": "^7.3|^8.0",
+					"php": "^8.0.2",
 					"illuminate/contracts": "^8.77|^9.0",
+					"illuminate/http": "^8.77|^9.0",
+					"illuminate/support": "^8.77|^9.0",
 					"nesbot/carbon": "^2.56"
 				},
 				"require-dev": {
+					"friendsofphp/php-cs-fixer": "^3.6",
 					"laravel/framework": "^9.0",
 					"orchestra/testbench": "^7.0",
 					"phpunit/phpunit": "^9.5"
@@ -50,6 +53,18 @@
 					}
 				},
 				"scripts": {
+					"lint:all": [
+						"./vendor/bin/php-cs-fixer fix --config .php_cs.php ."
+					],
+					"coverage:offline:fast": [
+						"composer run test:offline:fast -- --coverage-html hidden_coverage"
+					],
+					"coverage:offline:slow": [
+						"composer run test:offline:slow -- --coverage-html hidden_coverage"
+					],
+					"coverage:offline:all": [
+						"composer run test:offline:all -- --coverage-html hidden_coverage"
+					],
 					"test:offline:fast": [
 						"./vendor/bin/phpunit --testsuite Unit,Feature"
 					],
