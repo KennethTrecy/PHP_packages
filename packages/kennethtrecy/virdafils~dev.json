@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "fb41ffad29c3f001f78948cf1a776a30063ed288"
+					"reference": "325450474dc4d93a2fe703b9bcd573759969dfb0"
 				},
 				"type": "library",
 				"description": "A Flysystem storage driver for virtual database filesystem",
@@ -37,7 +37,7 @@
 					"illuminate/http": "^9.0",
 					"illuminate/support": "^9.0",
 					"kennethtrecy/elomocato": "^0.3.0",
-					"league/flysystem": "^2.4",
+					"league/flysystem": "^3.0",
 					"league/mime-type-detection": "^1.9"
 				},
 				"require-dev": {

@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "0fd7f5c6b9eea88144894a8578c85514569f952c"
+					"reference": "5801750031f47ab444fc17965d6d7ae8acd7b3cc"
 				},
 				"type": "library",
 				"description": "Collection of casting tools that can be used with any Eloquent model",
