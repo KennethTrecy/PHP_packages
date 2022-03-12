@@ -79,6 +79,84 @@
 					"secure-http": true
 				}
 			},
+			"0.3.3": {
+				"name": "kennethtrecy/elomocato",
+				"version": "v0.3.3",
+				"dist": {
+					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/tags/v0.3.3.zip",
+					"type": "zip",
+					"reference": "346308cb994ecfd87e68b45460a97e19ad888c34"
+				},
+				"type": "library",
+				"description": "Collection of casting tools that can be used with any Eloquent model",
+				"keywords": [
+					"eloquent",
+					"cast",
+					"tools",
+					"laravel",
+					"package"
+				],
+				"homepage": "https://github.com/KennethTrecy/elomocato",
+				"license": "MIT",
+				"authors": [
+					{
+						"name": "Kenneth Trecy Tobias",
+						"email": "web.kennethtobias@gmail.com",
+						"homepage": "https://github.com/KennethTrecy",
+						"role": "Developer"
+					}
+				],
+				"require": {
+					"php": "^8.0.2",
+					"illuminate/contracts": "^8.77|^9.0",
+					"illuminate/http": "^8.77|^9.0",
+					"illuminate/support": "^8.77|^9.0",
+					"nesbot/carbon": "^2.56"
+				},
+				"require-dev": {
+					"friendsofphp/php-cs-fixer": "^3.6",
+					"laravel/framework": "^9.0",
+					"orchestra/testbench": "^7.0",
+					"phpunit/phpunit": "^9.5"
+				},
+				"autoload": {
+					"psr-4": {
+						"KennethTrecy\\Elomocato\\": "src/"
+					}
+				},
+				"autoload-dev": {
+					"psr-4": {
+						"Tests\\": "t/",
+						"Tests\\Mocks\\Models\\": "t/mocks/models/"
+					}
+				},
+				"scripts": {
+					"lint:all": [
+						"./vendor/bin/php-cs-fixer fix --config .php_cs.php ."
+					],
+					"coverage:offline:fast": [
+						"composer run test:offline:fast -- --coverage-html hidden_coverage"
+					],
+					"coverage:offline:slow": [
+						"composer run test:offline:slow -- --coverage-html hidden_coverage"
+					],
+					"coverage:offline:all": [
+						"composer run test:offline:all -- --coverage-html hidden_coverage"
+					],
+					"test:offline:fast": [
+						"./vendor/bin/phpunit --testsuite Unit,Feature"
+					],
+					"test:offline:all": [
+						"./vendor/bin/phpunit"
+					]
+				},
+				"minimum-stability": "dev",
+				"prefer-stable": true,
+				"config": {
+					"sort-packages": true,
+					"secure-http": true
+				}
+			},
 			"0.3.2-RC0": {
 				"name": "kennethtrecy/elomocato",
 				"version": "v0.3.2-RC0",
