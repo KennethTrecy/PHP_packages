@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/virdafils/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "7226e80cb69c2947f9332764ad02526c1ad8d728"
+					"reference": "6360d69a6a5c86b92d629e578aa3dd0d74206b91"
 				},
 				"type": "library",
 				"description": "A Flysystem storage driver for virtual database filesystem",
