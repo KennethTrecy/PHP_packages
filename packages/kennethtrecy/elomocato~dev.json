@@ -7,7 +7,7 @@
 				"dist": {
 					"url": "https://github.com/KennethTrecy/elomocato/archive/refs/heads/master.zip",
 					"type": "zip",
-					"reference": "2264cd0f2986a2c2d9eb7af09a2c7df07cb1ffb1"
+					"reference": "88643c5e9af4932dcadcc4a2de567985d8466b74"
 				},
 				"type": "library",
 				"description": "Collection of casting tools that can be used with any Eloquent model",
@@ -30,15 +30,15 @@
 				],
 				"require": {
 					"php": "^8.0.2",
-					"illuminate/contracts": "^8.77|^9.0",
-					"illuminate/http": "^8.77|^9.0",
-					"illuminate/support": "^8.77|^9.0",
+					"illuminate/contracts": "^8.77|^9.0|^10.0",
+					"illuminate/http": "^8.77|^9.0|^10.0",
+					"illuminate/support": "^8.77|^9.0|^10.0",
 					"nesbot/carbon": "^2.56"
 				},
 				"require-dev": {
 					"friendsofphp/php-cs-fixer": "^3.6",
-					"laravel/framework": "^9.0",
-					"orchestra/testbench": "^7.0",
+					"laravel/framework": "^9.0|^10.0",
+					"orchestra/testbench": "^7.0|^8.0",
 					"phpunit/phpunit": "^9.5"
 				},
 				"autoload": {
